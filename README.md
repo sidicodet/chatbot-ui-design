@@ -4,8 +4,6 @@ ImoogleAI UI is an open source chat UI for AI models.
 
 view it [live](https://chat-ui-design.vercel.app).
 
-![Chatbot UI](./public/screenshots/screenshot-0402023.jpg)
-
 ## Updates
 
 ImoogleAI UI will be updated over time.
