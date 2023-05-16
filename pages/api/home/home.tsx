@@ -360,7 +360,7 @@ const Home = ({
       }}
     >
       <Head>
-        <title>Chatbot UI</title>
+        <title>ImoogleAI</title>
         <meta name="description" content="ChatGPT but better." />
         <meta
           name="viewport"
@@ -389,6 +389,17 @@ const Home = ({
             <Promptbar />
           </div>
         </main>
+        <script>
+     var alanBtnInstance = alanBtn({
+       key: "f00a2251141594219c04f2964d977e742e956eca572e1d8b807a3e2338fdd0dc/stage",
+       onCommand: function (commandData) {
+         if (commandData.command === "go:back") {
+           //call client code that will react on the received command
+         }
+       },
+       rootEl: document.getElementById("alan-btn"),
+     })
+   </script>
       )}
     </HomeContext.Provider>
   );
