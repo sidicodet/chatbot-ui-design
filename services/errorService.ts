@@ -19,10 +19,10 @@ const useErrorService = () => {
                 ? [error.statusText]
                 : [
                     t(
-                      'Make sure your OpenAI API key is set in the bottom left of the sidebar.',
+                      'Comrade looks like you are having network issue.',
                     ),
                     t(
-                      'If you completed this step, OpenAI may be experiencing issues.',
+                      'Check your Internet Connection, and try again.',
                     ),
                   ],
             } as ErrorMessage);
