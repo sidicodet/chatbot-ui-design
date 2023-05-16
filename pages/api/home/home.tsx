@@ -360,7 +360,7 @@ const Home = ({
       }}
     >
       <Head>
-        <title>Imoogle AI</title>
+        <title>Imoogle AI 3.0</title>
         <meta name="description" content="ChatGPT but better." />
         <meta
           name="viewport"
