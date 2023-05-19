@@ -224,6 +224,22 @@ const Home = ({
     dispatch({ field: 'selectedConversation', value: single });
     dispatch({ field: 'conversations', value: all });
   };
+    
+   // VOICE AI IMPLEMENTATION 
+    <div class="alan-btn"></div>
+    <script type="text/javascript"
+    src="https://studio.alan.app/web/lib/alan_lib.min.js"></script>
+   <script>
+     var alanBtnInstance = alanBtn({
+       key: "f00a2251141594219c04f2964d977e742e956eca572e1d8b807a3e2338fdd0dc/stage",
+       onCommand: function (commandData) {
+         if (commandData.command === "go:back") {
+           //call client code that will react on the received command
+         }
+       },
+       rootEl: document.getElementById("alan-btn"),
+     })
+   </script>
 
   // EFFECTS  --------------------------------------------
 
@@ -389,20 +405,6 @@ const Home = ({
             <Promptbar />
           </div>
         </main>
-        <div class="alan-btn"></div>
-    <script type="text/javascript"
-    src="https://studio.alan.app/web/lib/alan_lib.min.js"></script>
-   <script>
-     var alanBtnInstance = alanBtn({
-       key: "f00a2251141594219c04f2964d977e742e956eca572e1d8b807a3e2338fdd0dc/stage",
-       onCommand: function (commandData) {
-         if (commandData.command === "go:back") {
-           //call client code that will react on the received command
-         }
-       },
-       rootEl: document.getElementById("alan-btn"),
-     })
-   </script>
       )}
     </HomeContext.Provider>
   );
