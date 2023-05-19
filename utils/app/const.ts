@@ -1,6 +1,6 @@
 export const DEFAULT_SYSTEM_PROMPT =
   process.env.NEXT_PUBLIC_DEFAULT_SYSTEM_PROMPT ||
-  "Welcome to Imoogle, an AI created by Sidicode using OpenAI ChatGPT API and it's own Model trained. Follow the user's instructions carefully. Respond using markdown.";
+  "Welcome to ImoogleAI, an AI created by Sidicode using OpenAI ChatGPT API and it's own Model trained. Follow the user's instructions carefully. Respond using markdown.";
 
 export const OPENAI_API_HOST =
   process.env.OPENAI_API_HOST || 'https://api.openai.com';
