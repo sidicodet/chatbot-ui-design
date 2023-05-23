@@ -225,6 +225,8 @@ const Home = ({
     dispatch({ field: 'conversations', value: all });
   };
   // EFFECTS  --------------------------------------------
+    
+    
  useEffect(() => {
     if (window.innerWidth < 640) {
       dispatch({ field: 'showChatbar', value: false });
