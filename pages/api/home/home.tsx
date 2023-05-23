@@ -231,7 +231,6 @@ const Home = ({
       dispatch({ field: 'showChatbar', value: false });
     }
   }, [selectedConversation]);
-
   useEffect(() => {
     defaultModelId &&
       dispatch({ field: 'defaultModelId', value: defaultModelId });
