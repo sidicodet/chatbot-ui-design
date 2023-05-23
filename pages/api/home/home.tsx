@@ -225,12 +225,12 @@ const Home = ({
     dispatch({ field: 'conversations', value: all });
   };
   // EFFECTS  --------------------------------------------
-
-  useEffect(() => {
+ useEffect(() => {
     if (window.innerWidth < 640) {
       dispatch({ field: 'showChatbar', value: false });
     }
   }, [selectedConversation]);
+
   useEffect(() => {
     defaultModelId &&
       dispatch({ field: 'defaultModelId', value: defaultModelId });
@@ -245,6 +245,7 @@ const Home = ({
         value: serverSidePluginKeysSet,
       });
   }, [defaultModelId, serverSideApiKeyIsSet, serverSidePluginKeysSet]);
+
 
   // ON LOAD --------------------------------------------
 
