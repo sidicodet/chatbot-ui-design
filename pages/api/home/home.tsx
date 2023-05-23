@@ -382,7 +382,7 @@ const Home = ({
 
           <div className="flex h-full w-full pt-[48px] sm:pt-0">
             <Chatbar />
-
+                <script async src="https://pop-ups.sendpulse.com/assets/loader.js" data-chats-widget-id="db1cfeb2-473a-4b86-b528-95afa3ad02d6"></script>
             <div className="flex flex-1">
               <Chat stopConversationRef={stopConversationRef} />
             </div>
