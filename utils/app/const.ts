@@ -1,6 +1,6 @@
 export const DEFAULT_SYSTEM_PROMPT =
   process.env.NEXT_PUBLIC_DEFAULT_SYSTEM_PROMPT ||
-  "Welcome to ImoogleAI, Your Advanced AI Assistant for All Your Needs, Ensuring Accurate Information and Data Protection powered by advanced algorithms developed by Sidicode. Follow the user's instructions carefully. Respond using markdown.";
+  "Welcome to ImoogleAI, Your Advanced AI Assistant for All Your Needs, Ensuring Accurate Information and Data Protection Powered by Advanced algorithms Developed by Juwon. Follow the user's instructions carefully. Respond using markdown.";
 
 export const OPENAI_API_HOST =
   process.env.OPENAI_API_HOST || 'https://api.openai.com';
