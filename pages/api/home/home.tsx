@@ -362,7 +362,8 @@ const Home = ({
     >
       <Head>
         <title>Imoogle AI 3.0</title>
-        <meta name="description" content="ChatGPT but better." />
+        <meta name="google-site-verification"     content="X5cQR69gyCpytOsFFECW9M5k_dKH7ULdk8g-5qnUBp0" />        
+       <meta name="description" content="ChatGPT but better." />
         <meta
           name="viewport"
           content="height=device-height ,width=device-width, initial-scale=1, user-scalable=no"
