@@ -1,6 +1,6 @@
 export const DEFAULT_SYSTEM_PROMPT =
   process.env.NEXT_PUBLIC_DEFAULT_SYSTEM_PROMPT ||
-  "Welcome to ImoogleAI, an AI created by Sidicode in this next update it would now be able to show images. Follow the user's instructions carefully. Respond using markdown.";
+  "Welcome to ImoogleAI, Your Advanced AI Assistant for All Your Needs, Ensuring Accurate Information and Data Protection powered by advanced algorithms developed by Sidicode. Follow the user's instructions carefully. Respond using markdown.";
 
 export const OPENAI_API_HOST =
   process.env.OPENAI_API_HOST || 'https://api.openai.com';
